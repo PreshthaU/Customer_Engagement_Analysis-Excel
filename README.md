@@ -1,5 +1,6 @@
 # Customer_Engagement_Analysis_Excel
 This project focuses on analyzing the impact of adding new features to the 365 Data Science platform using Q4 user data across 2021-2022.
+
 **Tools**: Excel.  
 **Skills**: Exploratory Data Analysis (EDA), summary statistics, inferential statistics, hypothesis testing, statistical testing using f-tests, t-tests, and p-values, translating data to business insights, and data storytelling.  
 **Outputs**: 
