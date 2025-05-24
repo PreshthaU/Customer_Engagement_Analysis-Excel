@@ -12,9 +12,9 @@ We use masked user data to investigate whether engagement levels (measured in mi
 
 ## 📁 Project Structure
 
-- `Engagement Project.xlsx`: Raw and processed engagement data
-  * Includes data for free and paid-plan students in Q4-2021 and Q4-2022
-  * And data of free-plan students from India and the US in 2022
+- `Engagement Project.xlsx`: Raw and processed engagement data. Include:
+  * Data for free and paid-plan students in Q4-2021 and Q4-2022
+  * Data for free-plan students from India and the US in 2022
 - `README.md`: Project report and summary
 
 ## 🎯 Objective
