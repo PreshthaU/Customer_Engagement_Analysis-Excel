@@ -39,7 +39,7 @@ The dataset is available on the 365 Data Science platform under Course Projects.
 
 ### 2. Confidence Intervals
 - 95% CI using Z-statistic (due to large n)
-- 
+  
 ### 3. Hypothesis Testing
 - **Null Hypothesis** (H₀): Engagement in Q4 2021 ≥ Engagement in Q4 2022
 - **Tests Used**:
@@ -49,7 +49,7 @@ The dataset is available on the 365 Data Science platform under Course Projects.
 ### 4. Regional Comparison
 - US vs India (free-plan students only)
 - **Null Hypothesis** (H₀): US engagement ≥ India
-- 
+  
 ## 🖼️ Data Analysis Summary
   1. Both free and paid users had a noticeable increase in watch time from Q4-2021 to Q4-2022, with paid users having an **over 700% increase** in watch time. However, the data showed extreme skewness and kurtosis, especially in 2022, implying that a small group of focused users were responsible for the high average watch time. High standard deviation in Q4-2022 and relatively similar median values across the board support this conclusion.
   2. Despite skewed raw data, the large sample sizes allow us to use the z-statistic method, so normality was assumed for confidence interval estimation and hypothesis testing. Confidence interval calculations showed that paid plan users had a statistically significant increase in engagement, while free plan users had a drop in engagement.
