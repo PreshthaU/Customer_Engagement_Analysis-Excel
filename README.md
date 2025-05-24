@@ -12,7 +12,7 @@ We use masked user data to investigate whether engagement levels (measured in mi
 
 ## 📁 Project Structure
 
-- `Engagement Project.xlsx`: Raw and processed engagement data. Include:
+- `Engagement Project.xlsx`: Raw and processed engagement data. Includes:
   * Data for free and paid-plan students in Q4-2021 and Q4-2022
   * Data for free-plan students from India and the US in 2022
 - `README.md`: Project report and summary
@@ -54,13 +54,13 @@ The dataset is available on the 365 Data Science platform under Course Projects.
 ## 🖼️ Data Analysis Summary
   1. Both free and paid users had a noticeable increase in watch time from Q4-2021 to Q4-2022, with paid users having an **over 700% increase** in watch time. However, the data showed extreme skewness and kurtosis, especially in 2022, implying that a small group of focused users were responsible for the high average watch time. High standard deviation in Q4-2022 and relatively similar median values across the board support this conclusion.
   2. Despite skewed raw data, the large sample sizes allow us to use the z-statistic method, so normality was assumed for confidence interval estimation and hypothesis testing. Confidence interval calculations showed that paid plan users had a statistically significant increase in engagement, while free plan users had a drop in engagement.
-  3. We reject the first null hypothesis (2021 engagement is ≥ 2022 engagement) for _paid plan students_ as the t-statistic is lower than the critical value. We fail to reject the same hypothesis for _free plan students_ as the calculated t-stat is higher than the critical value. These results align with our previous findings.
-  4. We fail to reject the second null hypothesis (US engagement is ≥ India engagement)
+  3. We reject the first null hypothesis (2021 engagement ≥ 2022 engagement) for _paid plan students_ as the t-statistic is lower than the critical value. We fail to reject the same hypothesis for _free plan students_ as the calculated t-stat is higher than the critical value. These results align with our previous findings.
+  4. We fail to reject the second null hypothesis (US engagement ≥ India engagement)
 
 **Note**: Rejecting a null hypothesis does not prove the alternative hypothesis is true
 
 ## 📌 Conclusion
-The analysis supports that student engagement (minutes watched) significantly increased in Q4 2022 for free but particularly for paid users, suggesting that new platform features may have contributed to this. However, there is not enough data to make a proper conclusion about the difference between US and Indian free-plan students.
+The analysis supports that student engagement (minutes watched) significantly increased in Q4 2022 for both free and (especially) paid users, suggesting that new platform features may have contributed to this. However, there is not enough data to make a proper conclusion about the difference between US and Indian free-plan students.
 
 ## 🔍 Future Analysis Opportunities
 - Analyze engagement by feature
